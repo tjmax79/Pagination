@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.container {
+  margin: 200px auto;
+  width: 500px;
+}
+
+svg {
+  height: 35px;
+  stroke: green;
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+svg:hover {
+  background-color: green;
+  stroke: white;
+}
+
+a:link {
+  text-decoration: none;
+  color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a:hover {
+  background-color: green;
+  color: white;
+  border: 1px solid;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  align-content: center;
+  justify-items: center;
+}
+
+.all {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.pg-link {
+  background-color: green;
+  border: 1px solid;
+  border-radius: 50%;
+  color: white;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  font-size: 18px;
+}
